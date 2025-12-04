@@ -28,9 +28,9 @@ pip install -e .
 ### Usage
 
 ```bash
-python -m msaligner.cli --input data/example.fasta --output_dir outputs/
-python -m msaligner.cli --input data/example.fasta --outdir outputs/run_custom --kmer-size 5 --gap-penalty 2.5
-python -m msaligner.cli --input data/example.fasta --outdir outputs/run_verbose --kmer-size 4 --gap-penalty 1.5 --verbose
+python -m msaligner.cli --input data/example.fasta --outdir Results/
+python -m msaligner.cli --input data/example.fasta --outdir Results/ --kmer-size 5 --gap-penalty -2.5
+python -m msaligner.cli --input data/example.fasta --outdir outputs/run_verbose --kmer-size 4 --gap-penalty -1.5 --verbose
 ```
 
 ### Inputs/Outputs
@@ -38,5 +38,5 @@ python -m msaligner.cli --input data/example.fasta --outdir outputs/run_verbose 
 - Outputs: aligned_protein.fasta, aligned_codon.fasta, codon_stats.csv, variability_plot.png.
 
   ### AI Disclosure
-  This project was completed in part using Julius AI including preliminary scaffolding and code base, as well as generated FASTA files.
+  This project was completed in part using Julius AI (GPT-5) including preliminary scaffolding and code base, as well as generated FASTA files.
 
