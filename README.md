@@ -28,9 +28,9 @@ pip install -e .
 ### Usage
 
 ```bash
-python -m msaligner.cli --input data/example.fasta --outdir Results/
-python -m msaligner.cli --input data/example.fasta --outdir Results/ --kmer-size 5 --gap-penalty -2.5
-python -m msaligner.cli --input data/example.fasta --outdir outputs/run_verbose --kmer-size 4 --gap-penalty -1.5 --verbose
+python -m msaligner.cli --input data/example_orfs_cds.fasta --outdir Results/
+python -m msaligner.cli --input data/example_orfs_cds.fasta --outdir Results/ --kmer-size 5 --gap-penalty -2.5
+python -m msaligner.cli --input data/example_orfs_cds.fasta --outdir outputs/run_verbose --kmer-size 4 --gap-penalty -1.5 --verbose
 ```
 
 ### Inputs/Outputs
